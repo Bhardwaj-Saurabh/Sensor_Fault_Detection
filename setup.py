@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
 from typing import List
 
+# funtion to add requirement to the list
 def get_requirements()->List[str]:
     '''
     Returns list of requirements 
@@ -15,7 +16,7 @@ def get_requirements()->List[str]:
 
     return requirement_list    
 
-
+# set up for the sensor detector
 setup(
     name = 'sensor',
     version = '0.0.1',
